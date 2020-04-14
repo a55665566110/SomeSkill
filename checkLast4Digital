@@ -1,0 +1,4 @@
+if (身分證字號全碼.LastIndexOf(身分證字號後四碼, StringComparison.Ordinal) != 身分證字號全碼.Length - 身分證字號後四碼)
+{
+  判斷成功則取得身分證字號全碼
+}
